@@ -2,6 +2,8 @@
 
 A Drupal 8 module that allows to output text fields as raw HTML. For example, it can be used to insert video embed code.
 
+The formatter is available for `Text (plain)` and `Text (plain, long)` field types.
+
 ## Use with caution!
 
 **This formatter makes your website open to XSS attacks!** The [corresponding feature request](https://www.drupal.org/node/1678572) was marked as **won't fix** on drupal.org due to security gaps it can bring.
