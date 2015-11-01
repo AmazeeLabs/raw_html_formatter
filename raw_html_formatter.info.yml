@@ -1,0 +1,5 @@
+name: Raw HTML Formatter
+type: module
+description: 'Raw HTML Formatter for text fields.'
+core: 8.x
+package: Field types
