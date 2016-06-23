@@ -33,7 +33,7 @@ class RawHtmlFormatter extends FormatterBase {
 
       // Close unclosed HTML tags first.
       $doc = new \DOMDocument();
-      $doc->loadHTML($item->value);
+      @$doc->loadHTML($item->value);
       $value = $doc->saveHTML();
 
       // The #markup element is autoescaped, so we use inline template.
